@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8453F41C1DADF7DE00D26630 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8453F41A1DADF7DE00D26630 /* Model.xcdatamodeld */; };
+		8453F41E1DADF91A00D26630 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F41D1DADF91A00D26630 /* FriendsControllerHelper.swift */; };
+		8453F4201DADF99600D26630 /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F41F1DADF99600D26630 /* FriendsController.swift */; };
+		8453F4251DADFA6600D26630 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4211DADFA6600D26630 /* Friend+CoreDataProperties.swift */; };
+		8453F4261DADFA6600D26630 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4221DADFA6600D26630 /* Friend.swift */; };
+		8453F4271DADFA6600D26630 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4231DADFA6600D26630 /* Message+CoreDataProperties.swift */; };
+		8453F4281DADFA6600D26630 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4241DADFA6600D26630 /* Message.swift */; };
+		8453F42A1DADFACA00D26630 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4291DADFACA00D26630 /* ChatLogController.swift */; };
+		8453F42E1DAEC04F00D26630 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F42D1DAEC04F00D26630 /* CustomTabBarViewController.swift */; };
 		849D3F041DAC20A3007E2997 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D3F031DAC20A3007E2997 /* Model.swift */; };
 		849D3F061DAC215D007E2997 /* FirstViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D3F051DAC215D007E2997 /* FirstViewTableViewCell.swift */; };
 		849D3F0A1DAC325C007E2997 /* SecondViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D3F091DAC325C007E2997 /* SecondViewTableViewCell.swift */; };
@@ -26,6 +35,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8453F41B1DADF7DE00D26630 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8453F41D1DADF91A00D26630 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
+		8453F41F1DADF99600D26630 /* FriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
+		8453F4211DADFA6600D26630 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8453F4221DADFA6600D26630 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		8453F4231DADFA6600D26630 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8453F4241DADFA6600D26630 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8453F4291DADFACA00D26630 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		8453F42D1DAEC04F00D26630 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		849D3F031DAC20A3007E2997 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		849D3F051DAC215D007E2997 /* FirstViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewTableViewCell.swift; sourceTree = "<group>"; };
 		849D3F091DAC325C007E2997 /* SecondViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewTableViewCell.swift; sourceTree = "<group>"; };
@@ -77,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				84CC30341DAC1CCB009D554C /* AppDelegate.swift */,
+				84CC303D1DAC1CCB009D554C /* Assets.xcassets */,
 				849D3F0D1DAC4101007E2997 /* TabBarViewController.swift */,
 				84CC30361DAC1CCB009D554C /* FirstViewController.swift */,
 				84CC304C1DAC1FDC009D554C /* FirstViewTableViewController.swift */,
@@ -88,11 +107,19 @@
 				849D3F091DAC325C007E2997 /* SecondViewTableViewCell.swift */,
 				84CC30481DAC1D9B009D554C /* ThirdViewController.swift */,
 				84CC304A1DAC1E67009D554C /* FourthViewController.swift */,
+				849D3F031DAC20A3007E2997 /* Model.swift */,
 				84CC303A1DAC1CCB009D554C /* Main.storyboard */,
-				84CC303D1DAC1CCB009D554C /* Assets.xcassets */,
+				8453F41A1DADF7DE00D26630 /* Model.xcdatamodeld */,
+				8453F4221DADFA6600D26630 /* Friend.swift */,
+				8453F41F1DADF99600D26630 /* FriendsController.swift */,
+				8453F41D1DADF91A00D26630 /* FriendsControllerHelper.swift */,
+				8453F4211DADFA6600D26630 /* Friend+CoreDataProperties.swift */,
+				8453F4241DADFA6600D26630 /* Message.swift */,
+				8453F4231DADFA6600D26630 /* Message+CoreDataProperties.swift */,
+				8453F4291DADFACA00D26630 /* ChatLogController.swift */,
+				8453F42D1DAEC04F00D26630 /* CustomTabBarViewController.swift */,
 				84CC303F1DAC1CCB009D554C /* LaunchScreen.storyboard */,
 				84CC30421DAC1CCB009D554C /* Info.plist */,
-				849D3F031DAC20A3007E2997 /* Model.swift */,
 			);
 			path = tabViewApplication_test1;
 			sourceTree = "<group>";
@@ -169,10 +196,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				849D3F0C1DAC3277007E2997 /* SecondViewTableViewController.swift in Sources */,
+				8453F4201DADF99600D26630 /* FriendsController.swift in Sources */,
+				8453F42E1DAEC04F00D26630 /* CustomTabBarViewController.swift in Sources */,
 				849D3F041DAC20A3007E2997 /* Model.swift in Sources */,
+				8453F42A1DADFACA00D26630 /* ChatLogController.swift in Sources */,
 				849D3F0E1DAC4101007E2997 /* TabBarViewController.swift in Sources */,
+				8453F41C1DADF7DE00D26630 /* Model.xcdatamodeld in Sources */,
 				84CC30391DAC1CCB009D554C /* SecondViewController.swift in Sources */,
 				84CC30351DAC1CCB009D554C /* AppDelegate.swift in Sources */,
+				8453F4251DADFA6600D26630 /* Friend+CoreDataProperties.swift in Sources */,
 				84CC30491DAC1D9B009D554C /* ThirdViewController.swift in Sources */,
 				84CC304D1DAC1FDC009D554C /* FirstViewTableViewController.swift in Sources */,
 				849D3F061DAC215D007E2997 /* FirstViewTableViewCell.swift in Sources */,
@@ -180,7 +212,11 @@
 				84CC30371DAC1CCB009D554C /* FirstViewController.swift in Sources */,
 				84CC304B1DAC1E67009D554C /* FourthViewController.swift in Sources */,
 				849D3F321DACB94F007E2997 /* ChatTableViewCell.swift in Sources */,
+				8453F4261DADFA6600D26630 /* Friend.swift in Sources */,
 				849D3F301DACB914007E2997 /* ChatTableViewController.swift in Sources */,
+				8453F4281DADFA6600D26630 /* Message.swift in Sources */,
+				8453F41E1DADF91A00D26630 /* FriendsControllerHelper.swift in Sources */,
+				8453F4271DADFA6600D26630 /* Message+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +371,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8453F41A1DADF7DE00D26630 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8453F41B1DADF7DE00D26630 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8453F41B1DADF7DE00D26630 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84CC30291DAC1CCB009D554C /* Project object */;
 }
